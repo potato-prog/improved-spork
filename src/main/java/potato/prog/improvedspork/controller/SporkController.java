@@ -12,4 +12,9 @@ public class SporkController {
     public String displayWelcomeMessage() {
         return "Improved Spork";
     }
+
+    @GetMapping("/spork/thyme")
+    public String displayWelcomeMessagePage() {
+        return "welcome";
+    }
 }
