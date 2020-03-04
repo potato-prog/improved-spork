@@ -40,7 +40,6 @@ public class DarkSkyServiceImpl implements DarkSkyService {
             throw new Exception("Mapping error", e);
         }
 
-
         return darkSkyResponseReturn;
     }
 }
